@@ -1,0 +1,56 @@
+.window_1
+{
+	position: relative;
+	width: 250px;
+	height: 260px;
+	margin: 30px 20px;
+	background: orange;
+	display: inline-flex;
+	background: url(images/Facebook.png);
+	overflow: hidden;
+}
+.window_1:before
+{
+	content: 'Product_name';
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 250px;
+	height: 50px;
+	background: #000;
+}
+.window_1:after
+{
+	content: '$110';
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	position: absolute;
+	top: -50px;
+	right: 0;
+	width: 60px;
+	height: 50px;
+	background: #000;
+	border-radius: 0 0 0 5px;
+	transition: .5s;
+}
+.window_1:hover:after
+{
+	top: 0;
+}
+.product_control
+{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 1500px;
+	height: 650px;
+}

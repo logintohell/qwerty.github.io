@@ -1,0 +1,66 @@
+.social_icon_holder
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 80px;
+	background: transparent;
+	transition: .1s;
+}
+.icon_strip_fb .fb
+{
+	position: absolute;
+	top: 0;	
+	left: 0;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.icon_strip_fb:hover .fb
+{
+	top: 10px;
+	transition: .2s;
+}
+.icon_strip_tw .tw
+{
+	position: absolute;
+	top: 0;	
+	left: 60px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.icon_strip_tw:hover .tw
+{
+	top: 10px;
+	transition: .2s;
+}
+.icon_strip_utube .utube
+{
+	position: absolute;
+	top: 0;	
+	left: 120px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.icon_strip_utube:hover .utube
+{
+	top: 10px;
+	transition: .2s;
+}
+.icon_strip_gmail .gmail
+{
+	position: absolute;
+	top: 0;	
+	left: 180px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.icon_strip_gmail:hover .gmail
+{
+	top: 10px;
+	transition: .2s;
+}
